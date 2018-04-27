@@ -1,0 +1,840 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>详细报告语句详情</title>
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+    <style type="text/css">
+        .content-tips .paper-section{margin-bottom:0;min-width:450px;}
+    </style>
+</head>
+<body>
+<span id="gototop"></span>
+<div>
+    <div class="paper-txt P30">
+        <div class="paper-section" style="margin-bottom:0;">
+            <div class="font-bold MT5">
+                该句相似度：<span class="g-font-color red similarNum">95%</span>
+            </div>
+            <div class="MT30">
+                <p class="font-bold">您的语句：</p>
+                <span>假定特征 A对训练数据集 D的信息增益比 gR( D， A)定义为其信息增益 g( D，</span>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="tab-A">
+            <ul class="tab-A-ul clearfix" tab-a="ul">
+                <li class="active" data-id="学术期刊,学位论文,学术会议,书籍数据,互联网,自建库,all">
+                    <span class="tab-text">综合</span>
+                    <span class="tab-superscript">16</span>
+                </li>
+                <li data-id="tab,学术期刊,学位论文,学术会议,书籍数据,自建库,local">
+                    <span class="tab-text">本地库</span>
+                    <span class="tab-superscript">12</span>
+                </li>
+                <li data-id="互联网,5">
+                    <span class="tab-text">互联网</span>
+                    <span class="tab-superscript">4</span>
+                </li>
+            </ul>
+        </div>
+        <div class="none" tab="section" data-id="tab">
+            <div class="tab-B clearfix">
+                <div class="paper-section P30 PB0 clearfix">
+                    <span class="tab-B-span pull-left">本地库</span>
+                    <ul class="tab-B-ul pull-left clearfix" tab-b="ul">
+                        <li class="active" data-id="tab,学术期刊,学位论文,学术会议,书籍数据,自建库,local">
+                            <span class="tab-text">全部</span>
+                            <span class="tab-superscript">12</span>
+                            <span class="black-spacer"></span>
+                        </li>
+                        <li data-id="tab,学术期刊,1">
+                            <span class="tab-text">期刊</span>
+                            <span class="tab-superscript">4</span>
+                            <span class="black-spacer"></span>
+                        </li>
+                        <li data-id="tab,学位论文,2">
+                            <span class="tab-text">学位</span>
+                            <span class="tab-superscript">6</span>
+                            <span class="black-spacer"></span>
+                        </li>
+                        <li data-id="tab,学术会议,3">
+                            <span class="tab-text">会议</span>
+                            <span class="tab-superscript">1</span>
+                            <span class="black-spacer"></span>
+                        </li>
+                        <li data-id="tab,书籍数据,4">
+                            <span class="tab-text">图书</span>
+                            <span class="tab-superscript">1</span>
+                                                    </li>
+                                            </ul>
+                </div>
+                <div class="g-line-row MT30 tab-pane-line"></div>
+            </div>
+        </div>
+        <div class="content-tips">
+            <div class="tab-content none" tab="section" data-id="1">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在期刊库共找出相似内容：<span>4</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content none" tab="section" data-id="2">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在学位库共找出相似内容：<span>6</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>                    </div>
+                </div>
+            </div>
+            <div class="tab-content none" tab="section" data-id="3">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在会议库共找出相似内容：<span>1</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>                    </div>
+                </div>
+            </div>
+            <div class="tab-content none" tab="section" data-id="4">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在图书库共找出相似内容：<span>1</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>                    </div>
+                </div>
+            </div>
+            <div class="tab-content none" tab="section" data-id="5">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在互联网库共找出相似内容：<span>4</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>                    </div>
+                </div>
+            </div>
+            <!-- 自建库 -->
+            <div class="tab-content none" tab="section" data-id="6">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在自建库中没有找到与此句话相似的内容                    <p>
+                    <div class="pull-right">
+                                            </div>
+                </div>
+            </div>
+                        <div class="tab-content" tab="section" data-id="all">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在本地库和互联网库共找出相似内容：<span>16</span>个
+                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content none" tab="section" data-id="local">
+                <div class="paper-txt P30 paper-section clearfix">
+                    <p class="g-font-color green pull-left">
+                        在本地库共找出相似内容：<span>12</span>个                    <p>
+                    <div class="pull-right">
+                        <a href="#modify_suggest" class="g-btn g-btn-default g-btn-sm">查看修改意见</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+                <div class="tab-content" tab="section" data-id="互联网">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">1</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color red similarNum">95%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color red">假定<span class="g-underline-text">特征</span> A<span class="g-underline-text">对</span><span class="g-underline-text">训练</span><span class="g-underline-text">数据</span><span class="g-underline-text">集</span> D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span><span class="g-underline-text">比</span> gR( D， A)<span class="g-underline-text">定义</span><span class="g-underline-text">为</span><span class="g-underline-text">其</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span> g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green"><span class="g-underline-text">比</span><span class="g-underline-text">特征</span>A<span class="g-underline-text">对</span><span class="g-underline-text">训练</span><span class="g-underline-text">数据</span><span class="g-underline-text">集</span>D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span><span class="g-underline-text">比</span>gR(D，A)<span class="g-underline-text">定义</span><span class="g-underline-text">为</span><span class="g-underline-text">其</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>g(D，</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            特征的信息增益，并比较它们的大小，选择最大的特征。三、信息增益比通过信息增益选取特征的时候，存在偏向于选择取值较多的特征的问题。使用信息增益比可以纠正这一问题。信息增益<span class="g-font-color green">比特征A对训练数据集D的信息增益比gR(D，A)定义为其信息增益g(D，</span>A)与训练数据集D关于特征A的值的熵HA(D)之比，即:特征A对训练数据                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（互联网）：</p>
+                            <div class="local-source-detail">
+                                <b>标题：</b>机器学习笔记（八）——决策树模型的特征选择 - Lai18.com IT技术文章收藏夹<br/><a href='http://www.lai18.com/content/9771010.html' target='_blank'>http://www.lai18.com/content/9771010.html</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="互联网">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">2</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color red similarNum">85%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color red">假定<span class="g-underline-text">特征</span> A<span class="g-underline-text">对</span><span class="g-underline-text">训练</span><span class="g-underline-text">数据</span><span class="g-underline-text">集</span> D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span><span class="g-underline-text">比</span> gR( D， A)<span class="g-underline-text">定义</span><span class="g-underline-text">为</span><span class="g-underline-text">其</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span> g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green"><span class="g-underline-text">特征</span>A<span class="g-underline-text">对</span><span class="g-underline-text">训练</span><span class="g-underline-text">数据</span><span class="g-underline-text">集</span>D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span><span class="g-underline-text">比</span>Gr(D，A)<span class="g-underline-text">定义</span><span class="g-underline-text">为</span><span class="g-underline-text">其</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span></p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            信息增益越大，表示属性分类能力越好。公式(3)信息增益比:<span class="g-font-color green">特征A对训练数据集D的信息增益比Gr(D，A)定义为其信息增益</span>g(D，A)与训练数据集D的经验熵H(D)之                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（互联网）：</p>
+                            <div class="local-source-detail">
+                                <b>标题：</b>机器学习——由公式看透算法1___决策树 /  蓝讯<br/><a href='http://www.lxway.com/688605911.htm' target='_blank'>http://www.lxway.com/688605911.htm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="互联网">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">3</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color red similarNum">85%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color red">假定<span class="g-underline-text">特征</span> A<span class="g-underline-text">对</span><span class="g-underline-text">训练</span><span class="g-underline-text">数据</span><span class="g-underline-text">集</span> D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span><span class="g-underline-text">比</span> gR( D， A)<span class="g-underline-text">定义</span><span class="g-underline-text">为</span><span class="g-underline-text">其</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span> g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green"><span class="g-underline-text">特征</span>A<span class="g-underline-text">对</span><span class="g-underline-text">训练</span><span class="g-underline-text">数据</span><span class="g-underline-text">集</span>D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span><span class="g-underline-text">比</span>Gr(D，A)<span class="g-underline-text">定义</span><span class="g-underline-text">为</span><span class="g-underline-text">其</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span></p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            2013年10月23日&nbsp;-&nbsp;信息增益越大，表示属性分类能力越好。公式(3)信息增益比:<span class="g-font-color green">特征A对训练数据集D的信息增益比Gr(D，A)定义为其信息增益</span>g(D，A)与训练数据集D的经验熵H(D)                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（互联网）：</p>
+                            <div class="local-source-detail">
+                                <b>标题：</b>机器学习——由公式看透算法（1）___决策树   学步园<br/><a href='http://www.xuebuyuan.com/1555085.html' target='_blank'>http://www.xuebuyuan.com/1555085.html</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="互联网">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">4</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color red similarNum">80%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color red">假定<span class="g-underline-text">特征</span> A<span class="g-underline-text">对</span><span class="g-underline-text">训练</span><span class="g-underline-text">数据</span><span class="g-underline-text">集</span> D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>比 gR( D， A)<span class="g-underline-text">定义</span><span class="g-underline-text">为</span>其<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span> g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">。<span class="g-underline-text">定义</span><span class="g-underline-text">特征</span>A<span class="g-underline-text">对</span><span class="g-underline-text">训练</span><span class="g-underline-text">数据</span><span class="g-underline-text">集</span>D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span><span class="g-underline-text">为</span>g(D，A)，<span class="g-underline-text">定义</span>g(D，A)</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            根据不同的目标函数，建立决策树主要有三种算法：ID3(信息增益)C4.5(信息增益率)CART(基尼指数)信息增益表示得知特征A的信息而使得类X的信息的不确定性的减少程度<span class="g-font-color green">。定义特征A对训练数据集D的信息增益为g(D，A)，定义g(D，A)</span>为集合D的经验熵H(D)与特征A给定条件下D的经验条件熵H(DA)之差                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（互联网）：</p>
+                            <div class="local-source-detail">
+                                <b>标题：</b>经典分类算法——决策树 - Lai18.com IT技术文章收藏夹<br/><a href='http://www.lai18.com/content/7388803.html' target='_blank'>http://www.lai18.com/content/7388803.html</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学位论文">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">5</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">50%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">假定特征 A对训练数据集 D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>比 gR( D， A)<span class="g-underline-text">定义</span><span class="g-underline-text">为</span>其<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span> g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">�，�)中<span class="g-underline-text">的</span>一个属性a<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>�(�，�)可以被<span class="g-underline-text">定义</span><span class="g-underline-text">为</span>：<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>是ID</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            权值为按属性值划分的子集占原集合的比例。通过固定属性a的不确定度对样本集S降维，降维后的信息熵显然减少，丢失的那部分信息熵就是属性a的信息增益。因此，样本集�(<span class="g-font-color green">�，�)中的一个属性a的信息增益�(�，�)可以被定义为：信息增益是ID</span>3算法在构造树的过程中每一次选取最佳分类属性的度量标准。信息增益度量存在一个内在偏置，它会                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学位论文）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《面向数据流挖掘算法的研究与改进》<br><b>作者：</b>钱瑞<br><b>分类号：</b>TP311.13<br><b>学科专业：</b>计算机技术<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>宗平<br><b>学位授予单位：</b>南京邮电大学<br><b>学位年度：</b>2015<br><b>关键词：</b>数据流挖掘 决策树分类 连续属性处理 最佳分割点 Fayyad边界点
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学位论文">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">6</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">49%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">假定特征 A对训练数据集 D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>比 gR( D， A)<span class="g-underline-text">定义</span><span class="g-underline-text">为</span>其<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span> g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">熵。属性A相对于样本集合s<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>Gain(S，A)<span class="g-underline-text">定义</span><span class="g-underline-text">为</span>Gain(S，A)是</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            ，的熵的加权和，权值为属于s。的样本占原始样本S的比例lS。l/sl，即期望熵为其中，E(&)是将样本集S．，中的样本划分到c个不同类的信息<span class="g-font-color green">熵。属性A相对于样本集合s的信息增益Gain(S，A)定义为Gain(S，A)是</span>指因知道埔性A的值后导致的熵的期望压缩。Gain(S，A)越大，说明选择测试                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学位论文）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《基于数据挖掘的短期负荷预测》<br><b>作者：</b>高琳琳<br><b>分类号：</b>TM769<br><b>学科专业：</b>电气工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>刘爱国<br><b>学位授予单位：</b>南昌大学<br><b>学位年度：</b>2012<br><b>关键词：</b>数据挖掘 短期负荷 预测模型 决策树算法
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学位论文">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">7</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">47%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">假定特征 A对训练数据集 D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>比 gR( D， A)定义为其<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span> g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">熵Infoa(D)，进而得到A<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>Ga/n(A)。(2)<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>率<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span></p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            <span class="g-font-color green">熵Infoa(D)，进而得到A的信息增益Ga/n(A)。(2)信息增益率信息增益</span>度量在选择分裂属性时倾向于选择具有大量值的属性。例如，考虑充当唯一标识的属性，如product—                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学位论文）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《改进的聚类与决策树算法在入侵检测中的应用》<br><b>作者：</b>易倩<br><b>分类号：</b>TP393.08<br><b>学科专业：</b>计算机应用技术<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>滕少华<br><b>学位授予单位：</b>广东工业大学<br><b>学位年度：</b>2012<br><b>关键词：</b>网络安全 聚类算法 决策树分类算法 入侵检测
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学位论文">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">8</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">46%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">假定<span class="g-underline-text">特征</span> A对<span class="g-underline-text">训练</span><span class="g-underline-text">数据</span><span class="g-underline-text">集</span> D<span class="g-underline-text">的</span>信息增益比 gR( D， A)定义<span class="g-underline-text">为</span>其信息增益 g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">标定<span class="g-underline-text">的</span><span class="g-underline-text">特征</span><span class="g-underline-text">训练</span><span class="g-underline-text">数据</span><span class="g-underline-text">集</span>D=“，A2，…，ANA；C)，<span class="g-underline-text">训练</span><span class="g-underline-text">集</span>样本数<span class="g-underline-text">为</span>帆，</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            通过仿真验证改进算法的性能。4．2现有的基于信息增益的特征选择算法在文献【48】和149]@，作者采用了基于信息增益的特征选择算法。在文中，信息增益的定义如下所述。对于有<span class="g-font-color green">标定的特征训练数据集D=“，A2，…，ANA；C)，训练集样本数为帆，</span>彳=“，A2，…，ANs)J毛维度为N_的特征数组，特征4的取值为/                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学位论文）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《移动自组织网络入侵检测关键技术研究》<br><b>作者：</b>殷慧琳<br><b>分类号：</b>TN918<br><b>学科专业：</b>通信与信息系统<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>徐平平<br><b>学位授予单位：</b>东南大学<br><b>学位年度：</b>2010<br><b>关键词：</b>移动AdHoe网络 自组织网 入侵检测 特征选择 分簇算法
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学术期刊">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">9</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">44%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">假定特征 A对训练<span class="g-underline-text">数据</span><span class="g-underline-text">集</span> D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span>增益比 gR( D， A)定义<span class="g-underline-text">为</span>其<span class="g-underline-text">信息</span>增益 g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">属性A。<span class="g-underline-text">的</span><span class="g-underline-text">数据</span><span class="g-underline-text">集</span>D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span>熵<span class="g-underline-text">为</span>：E(Ak，D，一骞(斜)嘣叫㈣式</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            即这些分割点把属性A。的取值范围离散化为r个等级，离散化值为乙，ZA．∈{1…．，r}。这样，根据属性A。离散化可将集一D且nDq一西，则<span class="g-font-color green">属性A。的数据集D的信息熵为：E(Ak，D，一骞(斜)嘣叫㈣式</span>中，IDI和I域l为集合D和子集D。中训练样本数据量，E(Dq)为按照式(                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学术期刊）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《基于信息增益率的WNB水下机器人故障分类》<br><b>作者：</b>周悦 邢妍妍 郭威<br><b>作者单位：</b>上海海洋大学工程学院,上海201306；沈阳建筑大学信息与控制工程学院,沈阳110168；上海深渊科学工程技术研究中心,上海201306；沈阳建筑大学信息与控制工程学院,沈阳,110168；上海深渊科学工程技术研究中心,上海,201306<br><b>参考文献：</b>8篇<br><b>页码：</b>P42—P44<br><b>页数：</b>3页<br><b>分类号：</b>TP306<br><b>基金项目：</b>国家自然科学基金重点项目(51439004);上海市科委科技项目(14DZ1205500,14DZ2250900)<br><b>期刊名称：</b>《计算机测量与控制》<br><b>出版时间：</b>2016年10期<br><b>期刊级别：</b>ISTIC - PKU<br><b>ISSN：</b>1671-4598<br><b>关键词：</b>水下机器人 加权朴素贝叶斯 信息增益率 故障分类<br><b>摘要：</b>提高故障诊断能力对于确保水下机器人系统的稳定运行具有重要意义,故障分类是目前水下机器人故障诊断所面临的一个重要问题;针对水下机器人推进器系统数据特征,提出一种基于信息增益率的加权朴素贝叶斯故障分类算法;首先,计算故障训练样本的先验概率,将各属性的信息增益率作为权值;其次,构建基于增益率加权的朴素贝叶斯分类模型;然后,对检测的故障数据利用分类模型获取具有最大后验概率的故障模式,实现故障分类;与朴素贝叶斯算法和决策树算法相比,仿真实验结果表明基于信息增益率加权的朴素贝叶斯算法的分类成功率更高,能够有效地实现水下机器人的故障分类.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="书籍数据">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">10</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">43%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">假定特征 A对训练数据集 D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>比 gR( D， A)<span class="g-underline-text">定义</span><span class="g-underline-text">为</span>其<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span> g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">。一个属性A相对案例集合S<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>G（S，A）<span class="g-underline-text">定义</span><span class="g-underline-text">为</span>：其中，V（A）是</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            ，是一种全局评价方法。对案例集S，具有C个不同值的分类的熵定义为：其中，pi是案例集S中属于类别I的比率。属性的信息增益（InformationGain）就是由于使用这个属性分割案例而导<span class="g-font-color green">。一个属性A相对案例集合S的信息增益G（S，A）定义为：其中，V（A）是</span>属性A所有可能值的集合，Sv是S中属性A的值为V的子集。本节中使用信息增益来评价                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（书籍数据）：</p>
+                            <div class="local-source-detail">
+                                <b>章节：</b>《3.2.1 基于熵的属性约简模型和方法》<br><b>书名：</b>《基于案例推理的智能决策技术》<br><b>作者：</b>李锋刚<br><b>出版社：</b>安徽大学出版社<br><b>出版时间：</b>2011-01-01<br><b>ISBN：</b>978-7-81110-877-4<br><b>摘要：</b>本书共分7章，第1章介绍了优化技术与智能决策及其发展的概况；第2章主要研究了案例型智能决策系统的构成及其框架；第3章分析了基于熵、遗传算法和主成分分析的属性选择的策略；第4章包括案例推理中的多策略相似性检索技术；第5章是基于禁忌搜索技术的案例推理技术；第6章给出一个基于案例推理技术的中医智能诊断系统。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学术期刊">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">11</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">43%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">假定特征 A对<span class="g-underline-text">训练</span><span class="g-underline-text">数据</span>集 D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span><span class="g-underline-text">比</span> gR( D， A)定义为其<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span> g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green"><span class="g-underline-text">增益</span>是：2．2<span class="g-underline-text">训练</span>样本<span class="g-underline-text">数据</span>属性<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span><span class="g-underline-text">比</span><span class="g-underline-text">的</span>计算C4．5算法提出用<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span><span class="g-underline-text">比</span>来作为</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            个正例，n，个反例，则该子集的信息熵为，(p『，■)，以置为测试属性的期望信息熵为刚)=善警如印；)(2)因此以置为根节点的信息<span class="g-font-color green">增益是：2．2训练样本数据属性的信息增益比的计算C4．5算法提出用信息增益比来作为</span>训练样本属性选择的依据，信息增益比定义为：其中设属性A具有n个不同值{口。，…，                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学术期刊）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《基于信息增益比的决策树用于毕业生就业预测》<br><b>作者：</b>程昌品 陈强<br><b>作者单位：</b>广东教育学院计算机科学系,广东,广州,510310<br><b>参考文献：</b>6篇<br><b>被引次数：</b>3次（统计时间：2015年8月）<br><b>页码：</b>P299—P302<br><b>页数：</b>4页<br><b>分类号：</b>TP311.13<br><b>机标分类号：</b>TG1 O21<br><b>基金项目：</b>广东省科技计划项目(2007B010200038)<br><b>期刊名称：</b>《计算机仿真》<br><b>出版时间：</b>2010年2期<br><b>期刊级别：</b>ISTIC - PKU<br><b>ISSN：</b>1006-9348<br><b>关键词：</b>信息增益比 决策树 就业预测 有效性<br><b>摘要：</b>关于毕业生就业的预测研究,对毕业生就业及学校招生与教育教学管理工作具有指导作用.针对目前毕业生就业预测存在的不可靠性,提出了一种基于信息增益比的决策树应用于毕业生就业预测分析的方法,通过计算样本空间的信息熵和测试属性的期望信息熵以求得测试属性的信息增益比,从而构造出基于信息增益比的决策树,据此能够准确预测毕业生的就业情况.以广东教育学院的毕业生就业情况为例进行预测,实验结果表明所用方法的有效性和可靠性.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学位论文">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">12</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">43%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">假定特征 A对训练数据集 D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>比 gR( D， A)定义为其<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span> g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">计算Q’中<span class="g-underline-text">的</span>所有属性A<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>gain(A，X’)；(5)选择<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>最大<span class="g-underline-text">的</span></p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            ’)的样本集X都为相同类别或者全体属性集Q’为空，那么停止决策树生长；(3)否则，任意选取一个不满足(2)中条件的叶节点(X’，Q’)；(4)<span class="g-font-color green">计算Q’中的所有属性A的信息增益gain(A，X’)；(5)选择信息增益最大的</span>属性B为叶节点(X’，Q’)的最佳测试属性；(6)对属性B的所有取值bi                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学位论文）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《在概念漂移的数据流中可探测新颖类别的分类技术》<br><b>作者：</b>谢益均<br><b>分类号：</b>TP311.13<br><b>学科专业：</b>软件工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>缪裕青<br><b>学位授予单位：</b>桂林电子科技大学<br><b>学位年度：</b>2015<br><b>关键词：</b>数据挖掘 数据流 分类技术 流式数据 概念漂移
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学位论文">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">13</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">42%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">假定特征 A对训练数据集 D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>比 gR( D， A)定义<span class="g-underline-text">为</span>其<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span> g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">等妇州因此，以A<span class="g-underline-text">为</span>根<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>是Gain(A)=，(BH)一E(一)</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            分为v个子集①I，E2，…，E。)，假设Ei中含有pi个正例和ni个反例，子集Ei的信息熵为I(Pi，nD，以属性A为燃翮信躺肌剐)2喜<span class="g-font-color green">等妇州因此，以A为根的信息增益是Gain(A)=，(BH)一E(一)</span>。ID3选择使Gain∞最大(即E(A)最小)的属性A作为根结点。对A的不同的                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学位论文）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《数据挖掘在实时监控系统中的应用研究》<br><b>作者：</b>樊沛<br><b>分类号：</b>TP277<br><b>学科专业：</b>动力机械与工程<br><b>授予学位：</b>硕士<br><b>导师姓名：</b>王培红<br><b>学位授予单位：</b>东南大学<br><b>学位年度：</b>2001<br><b>关键词：</b>数据挖掘 实时监控系统 电站管理
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学术期刊">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">14</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">41%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">假定特征 A对训练数据集 D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>比 gR( D， A)<span class="g-underline-text">定义</span><span class="g-underline-text">为</span>其<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span> g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">(墨)+等郴，)(8)<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>(Gain)<span class="g-underline-text">定义</span><span class="g-underline-text">为</span>子集x<span class="g-underline-text">的</span><span class="g-underline-text">信息</span>熵与断点c；</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            ，令因此断点c?可以将集合x分成2个子集置和x，，且有．以z)_一；咖gz眦2黼(7)因此定义断点c?针对集合x的信息熵为：职a=器日<span class="g-font-color green">(墨)+等郴，)(8)信息增益(Gain)定义为子集x的信息熵与断点c；</span>针对集合x的信息熵之间的差。由式(3)和(8)即得：基于信息增益的离散化                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学术期刊）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《基于信息增益的多连续属性离散化算法改进》<br><b>作者：</b>李刚 段隆振 孙焱平<br><b>作者单位：</b>南昌大学信息工程学院计算机系,江西,南昌,330029<br><b>参考文献：</b>6篇<br><b>页码：</b>P251—P254<br><b>页数：</b>4页<br><b>分类号：</b>TP1<br><b>机标分类号：</b>TP1 TM7<br><b>期刊名称：</b>《江西科学》<br><b>出版时间：</b>2009年2期<br><b>ISSN：</b>1001-3679<br><b>关键词：</b>离散化 多连续属性 信息增益<br><b>摘要：</b>提出了一种基于多连续属性的离散化改进算法,在信息增益的离散化算法基础上,将离散化结果加以修正,并结合实例,详细说明该改进算法能更准确的判断出噪声数据、异常数据和错误数据,实现对这些数据的区别对待.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学术会议">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">15</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">41%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">假定特征 A<span class="g-underline-text">对</span>训练数据集 D<span class="g-underline-text">的</span>信息<span class="g-underline-text">增益</span>比 gR( D， A)<span class="g-underline-text">定义</span><span class="g-underline-text">为</span>其信息<span class="g-underline-text">增益</span> g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green"><span class="g-underline-text">的</span>贡献，称做P<span class="g-underline-text">对</span>D<span class="g-underline-text">的</span>知识<span class="g-underline-text">增益</span>，记做KG(DlP)，<span class="g-underline-text">定义</span><span class="g-underline-text">为</span>：4基于知识<span class="g-underline-text">增益</span><span class="g-underline-text">的</span></p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            它们相互的知识增益最大，如果P与D是概率独立的，则这时它们相互的知识增益最小。定义4．U是论域，P是属性集合，D是另一个属性集合，则给定P时，它对D的分类<span class="g-font-color green">的贡献，称做P对D的知识增益，记做KG(DlP)，定义为：4基于知识增益的</span>特征选择方法用上节得到的知识增益取代信息增益，通过计算一个词条在一篇文章中出现与否来计算对类别第三                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学术会议）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《知识增益：文本分类中一种新的特征选择方法》<br><b>作者：</b>徐燕 王斌 李锦涛 孙春明<br><b>作者单位：</b>中国科学院计算技术研究所,北京,100080<br><b>会议名称：</b>第三届全国信息检索与内容安全学术会议<br><b>主办单位：</b>中国中文信息学会<br><b>会议时间：</b>2007-11-01<br><b>会议地点：</b>苏州<br><b>关键词：</b>文本分类 特征选择 粗糙集 信息检索
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+                    <div class="tab-content" tab="section" data-id="学术期刊">
+            <div>
+                <div class="g-line-row"></div>
+                <div class="paper-txt P30">
+                    <div class="paper-section" style="margin-bottom:0;">
+                        <div class="clearfix">
+                            <div class="pull-left">
+                                <span class="chapter-symbol"></span>
+                                <span class="chapter-num">16</span>
+
+                            </div>
+                            <div class="font-bold pull-right">
+                                相似度：<span class="g-font-color orange similarNum">41%</span>
+                            </div>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">您的句子：</p>
+                            <p class="g-font-color orange">假定特征 A对训练数据集 D<span class="g-underline-text">的</span><span class="g-underline-text">信息</span><span class="g-underline-text">增益</span>比 gR( D， A)定义为其<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span> g( D，</p>
+
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似句子：</p>
+                            <p class="g-font-color green">随着E(A)<span class="g-underline-text">的</span>值变化而变化，<span class="g-underline-text">信息</span><span class="g-underline-text">增益</span><span class="g-underline-text">的</span>值与E(A)值呈负相关关系，</p>
+                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">相似原文片段：</p>
+                            原则进行决策树构建，即选择每次计算的信息增益最大的属性作为决策树的结点，并对属性的每个属性值建立分支，根据这种策略对训练数据样本集进行分类。由此可见，信息增益Gain(A)的值<span class="g-font-color green">随着E(A)的值变化而变化，信息增益的值与E(A)值呈负相关关系，</span>即信息增益的值随着信息熵的增大而减小。因此可以看出如果分裂属性A对信息增益的贡献最大                        </div>
+                        <div class="MT10">
+                            <p class="font-bold">来源（学术期刊）：</p>
+                            <div class="local-source-detail">
+                                <b>篇名：</b>《ID3算法的优化》<br><b>作者：</b>朱琳 杨杨<br><b>作者单位：</b>北京邮电大学,北京,100876<br><b>参考文献：</b>8篇<br><b>页码：</b>P89—P92<br><b>页数：</b>4页<br><b>分类号：</b>TP311.13<br><b>期刊名称：</b>《软件》<br><b>出版时间：</b>2016年12期<br><b>ISSN：</b>1003-6970<br><b>关键词：</b>数据挖掘 ID3算法 信息增益 信息增益率 分类<br><b>摘要：</b>随着硬件设备的普及，促使信息技术和移动互联网的快速发展，人们已经告别了信息匮乏的时期，而进入到了信息过载的时期。人们试图用搜索功能搜索出自己想要的信息，如今已是非常困难，怎样从海量的数据中筛选出有价值的信息是信息提供者和信息需求者都要面对的挑战。本文对数据分类中的 ID3算法的基本概念和原理以及其构造过程进行了详细阐述，针对 ID3算法倾向于选择取值较多的属性的缺点，引进属性阈值和信息增益率两个概念。弥补ID3算法属性选择标准的不足，来实现新的属性选择标准，对原有ID3算法进行改进。通过实验对改进前后的算法进行了比较，实验表明，改进后的算法提高了分类准确度。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+            
+        <!--语句修改建议-->
+        <span id="modify_suggest"></span>
+        <div id="advice">
+            <div class="g-line-row"></div>
+            <div class="paper-txt P30 PB0">
+                <div class="paper-section">
+                    <p class="g-font-s16 font-bold g-font-color green MB10">该句修改建议（重度相似，请全面修改）</p>
+                    <span class="g-font-color green">假定<span class="g-font-color red">特征</span> A<span class="g-font-color red">对</span><span class="g-font-color red">训练</span><span class="g-font-color red">数据</span><span class="g-font-color red">集</span> D的<span class="g-font-color red">信息</span><span class="g-font-color red">增益</span>比 gR( D， A)<span class="g-font-color red">定义</span>为其<span class="g-font-color red">信息</span><span class="g-font-color red">增益</span> g( D，</span>
+                    <div class="MT10">
+                        <p class="font-bold">同义词：</p>
+                        <ul class="local-source-detail">
+                            <li class="g-font-color green"><span class="g-font-color red">定义：</span>界说</li><li class="g-font-color green"><span class="g-font-color red">训练：</span>教练 锻练</li><li class="g-font-color green"><span class="g-font-color red">特征：</span>特性 特色 表征 性状 特点</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="back-to-top text-center">
+        <a href="#gototop" class="font-bold g-font-color green">回到顶部</a>
+    </div>
+    <div class="paper-footer">
+        <p>检测报告由<a href="http://www.paperpass.com/" target="_black">PaperPass</a>文献相似度检测系统生成</p>
+        <p>Copyright © 2007-2018 PaperPass</p>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/Lib.js"></script>
+<script type="text/javascript">
+    (function(System,$){
+        var tab = System.Paper.tab();
+        var $advice = null;
+        function run(){
+            var i = 0;
+            $advice.show();
+            tab.call(this,{callback:function(){
+                var $num = $(this).find('.chapter-num');
+                if($num.length>0){
+                    i++;
+                    $num.text(i);
+                }
+            }});
+            //没有内容时同时不显示该句修改建议
+            if(0 === i){$advice.hide();}
+        }
+        $(function(){
+            $advice = $('#advice');
+            $(document).on('click','[tab-a="ul"] li',function(){
+                run.call(this);
+            });
+            $(document).on('click','[tab-b="ul"] li',function(){
+                run.call(this);
+            });
+        });
+    })(Report,jQuery);
+
+
+</script>
+</html>
