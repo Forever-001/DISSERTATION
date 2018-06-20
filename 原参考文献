@@ -1,0 +1,61 @@
+[1]	杨健，线性投影分析的理论与算法及其在特征抽取中的应用研究，南京理工大学, 2002.
+[2]	张小洵, 贾云得. 基于互补子空间线性判别分析的人脸识别 [J]. 北京理工大学学报, 2006, 26(3): 206-10.
+[3]	刘勇进, 赵敬红. 基于稀疏恢复的l_1范数凸包分类器在人脸识别中的应用 [J]. 沈阳航空航天大学学报, 2016, 33(1): 42-6.
+[4]	丁世飞, 齐丙娟, 谭红艳. 支持向量机理论与算法研究综述 [J]. 电子科技大学学报, 2011, 40(1): 2-10.
+[5]	杜树新, 吴铁军. 模式识别中的支持向量机方法 [J]. 浙江大学学报(工学版), 2003, 37(5): 521-7.
+[6]	杨绪兵, 潘志松, 陈松灿. 半监督型广义特征值最接近支持向量机 [J]. 模式识别与人工智能, 2009, 22(3): 349-53.
+[7]	高斌斌, 刘霞, 李秋林. 改进孪生支持向量机的一种快速分类算法 [J]. 重庆理工大学学报, 2012, 26(11): 98-103.
+[8]	丁世飞, 张健, 张谢锴, et al. 多分类孪生支持向量机研究进展 [J]. 软件学报, 2018, 1): 89-108.
+[9]	王娟, 慈林林, 姚康泽. 特征选择方法综述 [J]. 计算机工程与科学, 2005, 27(12): 68-71.
+[10]	张静远, 张冰, 蒋兴舟. 基于小波变换的特征提取方法分析 [J]. 信号处理, 2000, 16(2): 156-62.
+[11]	DASH M, LIU H. Feature Selection for Classification [M]. IOS Press, 1997.
+[12]	GUYON, ISABELLE, ELISSEEFF, et al. An introduction to variable and feature selection [J]. Journal of Machine Learning Research, 2003, 3(6): 1157-82.
+[13]	胡正平, 王玲丽. 基于L1范数凸包数据描述的多观测样本分类算法 [J]. 电子与信息学报, 2012, 34(1): 194-9.
+[14]	HUANG H, FENG H, PENG C. Complete local Fisher discriminant analysis with Laplacian score ranking for face recognition [J]. Neurocomputing, 2012, 89(10): 64-77.
+[15]	TSAGKARAKIS N, MARKOPOULOS P P, PADOS D A. L1-norm Principal-Component Analysis of Complex Data [J]. 2017, 
+[16]	YANG M S, HUNG W L, CHUNG T I. Alternative Fuzzy Clustering Algorithms with L 1-Norm and Covariance Matrix; proceedings of the International Conference on Advanced Concepts for Intelligent Vision Systems, F, 2006 [C].
+[17]	叶天语. 基于范数与范数均值比较的印刷防伪水印算法 [J]. 光电工程, 2011, 38(6): 126-33.
+[18]	YAN A H, YE B Q, LIU C Y A, et al. The GEPSVM Classifier Based on L1-Norm Distance Metric [M]. Springer Singapore, 2016.
+[19]	刘建伟, 李双成, 付捷, et al. L1范数正则化SVM聚类算法 [J]. 计算机工程, 2012, 38(12): 185-7.
+[20]	NIE F, HUANG H. Non-Greedy L21-Norm Maximization for Principal Component Analysis [J]. 2016, 
+[21]	DU L, ZHOU P, SHI L, et al. Robust Multiple Kernel K-means Using L21-Norm [J]. 2015, 
+[22]	谭龙, 何改云, 潘静, et al. 基于近似零范数的稀疏核主成成分算法 [J]. 电子测量技术, 2013, 36(9): 27-30.
+[23]	WANG H, NIE F, HUANG H. Learning Robust Locality Preserving Projection via p-Order Minimization [J]. 2015, 
+[24]	李富杰. 基于流行学习的人脸表情识别研究 [D]; 杭州电子科技大学, 2013.
+[25]	许熳锋. 无监督流行学习算法的若干探讨 [D]; 浙江大学, 2010.
+[26]	陈晋音, 保星彤, 陈心怡, et al. 一种基于自适应密度聚类的非线性流行学习降维方法 [M]. 2017.
+[27]	黄石青. 基于流行学习LPP算法与Dijkstra算法结合的交通路径控制研究 [J]. 科技创新与应用, 2013, 31): 290-1.
+[28]	张学工. 关于统计学习理论与支持向量机 [J]. 自动化学报, 2000, 26(1): 32-42.
+[29]	王国胜, 钟义信. 支持向量机的若干新进展 [J]. 电子学报, 2001, 29(10): 1397-400.
+[30]	高斌斌, 王建军. 多分类最大间隔孪生支持向量机 [J]. 西南师范大学学报(自然科学版), 2013, 38(10): 130-5.
+[31]	徐金宝, 业巧林, 业宁. 基于简单特征值问题的修正GEPSVM [J]. 计算机工程, 2009, 35(21): 183-5.
+[32]	MANGASARIAN O L, WILD E W. Multisurface proximal support vector machine classification via generalized eigenvalues [J]. IEEE Transactions on Pattern Analysis & Machine Intelligence, 2006, 28(1): 69-74.
+[33]	YAN H, YE Q, ZHANG T, et al. L1-Norm GEPSVM Classifier Based on an Effective Iterative Algorithm for Classification [J]. Neural Processing Letters, 2017, 4): 1-26.
+[34]	杨绪兵, 陈松灿, 杨益民. 局部化的广义特征值最接近支持向量机 [J]. 计算机学报, 2007, 30(8): 001227-1234.
+[35]	JAYADEVA, KHEMCHANDANI R, CHANDRA S. Twin Support Vector Machines for pattern classification [J]. IEEE Transactions on Pattern Analysis & Machine Intelligence, 2007, 29(5): 905.
+[36]	TANVEER M. Robust and Sparse Linear Programming Twin Support Vector Machines [J]. Cognitive Computation, 2015, 7(1): 137-49.
+[37]	李凯, 李娜, 卢霄霞. 一种模糊加权的孪生支持向量机算法 [J]. 计算机工程与应用, 2013, 49(4): 162-5.
+[38]	BACH F R, LANCKRIET G R G, JORDAN M I. Multiple kernel learning, conic duality, and the SMO algorithm; proceedings of the Proc International Conference on Machine Learning, F, 2004 [C].
+[39]	张召, 黄国兴, 鲍钰. 一种改进的SMO算法 [J]. 计算机科学, 2003, 30(8): 128-9.
+[40]	周晓剑, 马义中, 朱嘉钢. SMO算法的简化及其在非正定核条件下的应用 [J]. 计算机研究与发展, 2010, 47(11): 1962-9.
+[41]	HONG T, HOU C, NIE F, et al. Effective Discriminative Feature Selection With Nontrivial Solution [J]. IEEE Transactions on Neural Networks & Learning Systems, 2016, 27(4): 796-808.
+[42]	FUNG G, MANGASARIAN O L. Proximal support vector machine classifiers; proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, F, 2001 [C].
+[43]	DODGE Y. on Statistical data analysis based on the L1-norm and related methods [J]. Computational Statistics & Data Analysis, 2002, 6(4): R3-R.
+[44]	WANG H, LU X, HU Z, et al. Fisher Discriminant Analysis With L1-Norm [J]. IEEE Transactions on Cybernetics, 2013, 44(6): 828-42.
+[45]	KONG D, HUANG H, HUANG H. Robust nonnegative matrix factorization using L21-norm; proceedings of the ACM International Conference on Information and Knowledge Management, F, 2011 [C].
+[46]	王晓慧. 线性判别分析与主成分分析及其相关研究评述 [J]. 中山大学研究生学刊(自然科学医学版), 2007, 4): 50-61.
+[47]	马旭, 刘应安, 业宁, et al. 基于核PCA与SVM算法的木材缺陷识别 [J]. 常州大学学报(自然科学版), 2017, 29(3): 60-8.
+[48]	吴晓婷, 闫德勤. 数据降维方法分析与研究 [J]. 计算机应用研究, 2009, 26(8): 2832-5.
+[49]	王和勇, 郑杰, 姚正安, et al. 基于聚类和改进距离的LLE方法在数据降维中的应用 [J]. 计算机研究与发展, 2006, 43(8): 1485-90.
+[50]	宋枫溪, 高秀梅, 刘树海, et al. 统计模式识别中的维数削减与低损降维 [J]. 计算机学报, 2005, 28(11): 1915-22.
+[51]	KWAK N, CHOI C H. Input feature selection for classification problems [J]. IEEE Transactions on Neural Networks, 2002, 13(1): 143.
+[52]	YAO C, HAN J, NIE F, et al. Local Regression and Global Information-Embedded Dimension Reduction [J]. IEEE Transactions on Neural Networks & Learning Systems, 2018, PP(99): 1-12.
+[53]	HE X, CAI D, NIYOGI P. Laplacian Score for Feature Selection; proceedings of the International Conference on Neural Information Processing Systems, F, 2005 [C].
+[54]	KWAK N. Principal component analysis based on l1-norm maximization [J]. IEEE Tpami, 2008, 30(9): 1672-80.
+[55]	周大可, 杨新, 彭宁嵩. 改进的线性判别分析算法及其在人脸识别中的应用 [J]. 上海交通大学学报, 2005, 39(4): 527-30.
+[56]	WELLING M. Fisher Linear Discriminant Analysis [J]. Department of Computer Science, 2009, 16(94): 237-80.
+[57]	刘小虎, 李生. 决策树的优化算法 [J]. 软件学报, 1998, 9(10): 797-800.
+[58]	唐华松, 姚耀文. 数据挖掘中决策树算法的探讨 [J]. 计算机应用研究, 2001, 18(8): 18-9.
+[59]	杨学兵, 张俊. 决策树算法及其核心技术 [J]. 计算机技术与发展, 2007, 17(1): 43-5.
+[60]	HONG T, HOU C, NIE F, et al. Effective Discriminative Feature Selection With Nontrivial Solution [J]. IEEE Transactions on Neural Networks & Learning Systems, 2016, 27(4): 796.
+[61]	CAI D, ZHANG C, HE X. Unsupervised feature selection for multi-cluster data; proceedings of the ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, F, 2010 [C].
